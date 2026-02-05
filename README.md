@@ -54,3 +54,15 @@ The Support Vector Machine (SVM) model achieved the best overall performance and
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+## Project Structure
+
+app.py : Streamlit application
+
+model.pkl : Trained ML model
+
+scaler.pkl : Feature scaler
+
+customer_churn_data.csv : Dataset
+
+notebook.ipynb : Model training and analysis
